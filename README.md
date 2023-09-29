@@ -19,7 +19,13 @@ pipenv shell
 3. Ejecute el programa principal con el siguiente comando:
 
 ```bash
-python3 main.py
+# Para eliminar salots de linea dado un texto
+python3 main.py rmln
+```
+
+```bash
+# Para contar palabras dado un texto
+python3 main.py wrdc
 ```
 
 4. A continuación, copie y pegue el texto del que desea eliminar los saltos de línea y presione "Enter". Luego, escriba "EOF" y presione "Enter" nuevamente para finalizar el proceso.
