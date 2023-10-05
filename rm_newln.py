@@ -10,8 +10,11 @@ def run_rmln():
     print(
         """
 ----------------------------------------------------------------------------------
-    Por favor, introduce el texto.
-    Cuando hayas terminado, escribe 'EOF' en una nueva línea y presiona Enter:
+    Remove newlines
+    Elimina los saltos de linea del texto dado.
+----------------------------------------------------------------------------------
+    Introduce el texto.
+    Escribe 'EOF' en una nueva línea y presiona Enter:
 ----------------------------------------------------------------------------------
         """
     )

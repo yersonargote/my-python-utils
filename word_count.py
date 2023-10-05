@@ -7,6 +7,9 @@ def run_word_counter():
     print(
         """
 ---------------------------------------------------------------
+    Word Counter
+        - Cuenta la cantidad de palabras dado un texto
+---------------------------------------------------------------
     Por favor, introduce el texto. Cuando hayas terminado,
     escribe 'EOF' en una nueva línea y presiona Enter:
 ---------------------------------------------------------------

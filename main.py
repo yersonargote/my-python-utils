@@ -8,13 +8,13 @@ app = typer.Typer()
 
 @app.command()
 def rmln():
-    """Remove New Line of a given text"""
+    """Remove new line of a given text"""
     run_rmln()
 
 
 @app.command()
 def wrdc():
-    """Word Counter of a given text"""
+    """Word counter of a given text"""
     run_word_counter()
 
 
