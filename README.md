@@ -1,55 +1,28 @@
-# Eliminar saltos de línea en un texto dado
+# My Python Utils
 
-## ¿Cómo funciona?
 
-Para utilizar esta herramienta, siga los siguientes pasos:
+## TEXTO
 
-1. Instale las dependencias ejecutando el siguiente comando:
-
-```bash
-pipenv install
-```
-
-2. Active el entorno virtual con el siguiente comando:
+Utilidades para Python para el manejo de texto.
 
 ```bash
-pipenv shell
+python3 main.py txt action
 ```
 
-3. Ejecute el programa principal con el siguiente comando:
+### Actions
+
+1. **`rm_newln`** - Eliminar saltos de linea de un texto dado y el resultado se copia al portapapeles.
+
+2. **`wrdc`** - Contar palabras de un texto dado.
+
+## PDF
+
+Utilidades para Python para el manejo de PDF.
 
 ```bash
-# Para eliminar salots de linea dado un texto
-python3 main.py rmln
+python3 main.py pdf action
 ```
 
-```bash
-# Para contar palabras dado un texto
-python3 main.py wrdc
-```
+### Actions
 
-4. A continuación, copie y pegue el texto del que desea eliminar los saltos de línea y presione "Enter". Luego, escriba "EOF" y presione "Enter" nuevamente para finalizar el proceso.
-
----
-
-# Remove newline of a given text
-
-## How works it?
-
-```bash
-# Install dependencies
-pipenv install
-```
-
-```bash
-# Activate enviroment
-pipenv shell
-```
-
-```bash
-# Run
-python3 main.py
-```
-
-***Then copy and paste the text and press "Enter" and finish writing "EOF" and press "Enter" again**
-
+1. **`split`** - Crear un nuevo PDF con las páginas de un rango dado.
