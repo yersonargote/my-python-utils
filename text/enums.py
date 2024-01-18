@@ -2,5 +2,5 @@ from enum import Enum
 
 
 class TXTActions(Enum):
-    REMOVE_NEWLINES = "rm_newln"
+    REMOVE_NEWLINES = "rmln"
     WORD_COUNT = "wrdc"

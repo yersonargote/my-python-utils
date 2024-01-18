@@ -1,5 +1,5 @@
 from text.enums import TXTActions
-from text.rm_newln import run_rmln
+from text.rm_lines import run_rmln
 from text.word_count import run_word_counter
 
 
