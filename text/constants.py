@@ -1,4 +1,4 @@
-REMOVE_NEWLINES_INSTRUCTIONS: str = """
+REMOVE_LINES_INSTRUCTIONS: str = """
 # Elimina los saltos de linea del texto dado
 ---
 1. Introduce el texto.
